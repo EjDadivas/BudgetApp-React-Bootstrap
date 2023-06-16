@@ -23,11 +23,11 @@ function App() {
 
   return (
   <>
-    <Container className='my-4'>
+    <Container className='my-4 min-vh-100 p-3'>
       <Stack direction="horizontal" gap="2" className="mb-4">
         <h1 className='me-auto'>Budgets</h1>
-        <Button variant='primary' onClick={()=> setShowAddBudgetModal(true)}>Add Budget</Button>
-        <Button variant='outline-primary' onClick={openAddExpenseModal}>Add Expense</Button>
+        <Button variant='light' onClick={()=> setShowAddBudgetModal(true)}>Add Budget</Button>
+        <Button variant='outline-light' onClick={openAddExpenseModal}>Add Expense</Button>
       </Stack>
       <div style={{display:"grid", 
       gridTemplateColumns: "repeat(auto-fill,minmax(300px, 1fr))",
@@ -71,6 +71,10 @@ function App() {
     budgetId={viewExpensesModalBudgetId}
     handleClose={() => setViewExpensesModalBudgetId()}
     />
+       <footer className="text-center">
+   <a class="link" href="https://ej-d.vercel.app/">© 2022 Copyright:
+      EJD</a>
+   </footer>
   </>
   )
 }

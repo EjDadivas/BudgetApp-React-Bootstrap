@@ -7,7 +7,7 @@ export default function BudgetCard({name, amount, max, gray, onAddExpenseClick, 
     if (amount > max) {
         classNames.push("bg-danger", "bg-opacity-10")
     } else if (gray){
-        classNames.push("bg-light")
+        classNames.push("bg-secondary")
     }
 
   return (
@@ -31,11 +31,12 @@ export default function BudgetCard({name, amount, max, gray, onAddExpenseClick, 
           )}
            {!hideButtons &&
             <Stack direction="horizontal" gap="2" className="mt-4">
-            <Button variant="outline-primary" className="ms-auto"
+            <Button variant="primary" className="ms-auto"
             onClick={onAddExpenseClick}
             >Add Expense</Button>
             <Button 
-            variant="outline-secondary" 
+          
+            variant="secondary" 
             onClick={onViewExpensesClick}>View Expenses</Button>
         </Stack>}
         </Card.Body>
@@ -45,8 +46,8 @@ export default function BudgetCard({name, amount, max, gray, onAddExpenseClick, 
 
 function getProgressBarVariant(amount, max){
     const ratio = amount / max
-    if (ratio < .5) return "primary"
+    if (ratio < .5) return "success"
     if (ratio < .75) return "warning"
-    return "danger"
+    return "primary"
 
 }
