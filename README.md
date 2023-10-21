@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Budget App - Track Your Budget and Expenses
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Alt text](image.png)
 
-## Available Scripts
+Welcome to the Budget App, a simple tool that helps you manage your finances by tracking your budget and expenses. With this app, you can easily categorize your expenses, set a maximum budget, view your expenses, and add new expenses based on your predefined budget name. Additionally, you can visually track your expenses with a progress bar to see how much of your budget has been used.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Create Budgets:** Define a budget name and set a maximum expense limit.
+- **Categorize Expenses:** Assign expenses to specific budget names.
+- **View Expenses:** Get a clear overview of your expenses and how they align with your budget.
+- **Add Expenses:** Easily add new expenses, specifying the budget name they belong to.
+- **Expense Progress Bar:** A visual progress bar shows how much of your budget has been utilized, helping you stay within your financial goals.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To use the Budget App, follow these steps:
 
-### `npm test`
+1. Clone the GitHub repository to your local machine:
+   ```
+   git clone https://github.com/EjDadivas/BudgetApp-React-Bootstrap
+   ```
+2. Navigate to the project directory:
+   ```
+   cd BudgetApp-React-Bootstrap
+   ```
+3. Install the required dependencies using npm:
+   ```
+   npm install
+   ```
+4. Start the app by running:
+   `    npm run start
+   `
+   The app should now be up and running in your web browser. You can access it at `http://localhost:3000/`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Use
 
-### `npm run build`
+1. Create a new budget by clicking the "Create Budget" button and providing a budget name and maximum expense limit.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Categorize expenses:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Select a budget from the dropdown menu.
+- Enter the details of your expense, such as the description and amount.
+- Click the "Add Expense" button.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. View your expenses and their status in relation to your budget, including a progress bar that visually represents the percentage of the budget used.
 
-### `npm run eject`
+4. Add more expenses as needed, selecting the appropriate budget for each one.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React: The front-end framework used to build the application.
+- Bootstrap: For responsive and attractive user interface design.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Start managing your budget and expenses with ease using the Budget App. Happy budgeting!
